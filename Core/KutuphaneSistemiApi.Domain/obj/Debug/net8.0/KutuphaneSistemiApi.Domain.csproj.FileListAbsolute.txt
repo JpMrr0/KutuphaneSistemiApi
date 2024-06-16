@@ -1,0 +1,11 @@
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\bin\Debug\net8.0\KutuphaneSistemiApi.Domain.deps.json
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\bin\Debug\net8.0\KutuphaneSistemiApi.Domain.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\bin\Debug\net8.0\KutuphaneSistemiApi.Domain.pdb
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\KutuphaneSistemiApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\KutuphaneSistemiApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\KutuphaneSistemiApi.Domain.AssemblyInfo.cs
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\KutuphaneSistemiApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\KutuphaneSistemiApi.Domain.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\refint\KutuphaneSistemiApi.Domain.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\KutuphaneSistemiApi.Domain.pdb
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\ref\KutuphaneSistemiApi.Domain.dll

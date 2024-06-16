@@ -1,0 +1,11 @@
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\bin\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.deps.json
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\bin\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\bin\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.pdb
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.AssemblyInfo.cs
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\refint\KutuphaneSistemiApi.Infrastructure.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.pdb
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\ref\KutuphaneSistemiApi.Infrastructure.dll

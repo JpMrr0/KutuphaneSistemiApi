@@ -1,0 +1,15 @@
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\bin\Debug\net8.0\KutuphaneSistemiApi.Application.deps.json
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\bin\Debug\net8.0\KutuphaneSistemiApi.Application.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\bin\Debug\net8.0\KutuphaneSistemiApi.Application.pdb
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\bin\Debug\net8.0\KutuphaneSistemiApi.Domain.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\bin\Debug\net8.0\KutuphaneSistemiApi.Domain.pdb
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\KutuphaneSistemiApi.Application.csproj.AssemblyReference.cache
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\KutuphaneSistemiApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\KutuphaneSistemiApi.Application.AssemblyInfoInputs.cache
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\KutuphaneSistemiApi.Application.AssemblyInfo.cs
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\KutuphaneSistemiApi.Application.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\Kutuphan.545A13A6.Up2Date
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\KutuphaneSistemiApi.Application.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\refint\KutuphaneSistemiApi.Application.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\KutuphaneSistemiApi.Application.pdb
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\ref\KutuphaneSistemiApi.Application.dll
