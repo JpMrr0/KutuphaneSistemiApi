@@ -10,6 +10,8 @@ namespace KutuphaneSistemiApi.Domain.Entities
 {
     public class Member : BaseEntity
     {
+        public required string Name { get; set; }
+        public required string Password { get; set; }
         public MembershipTypes MembershipType { get; set; }
         public DateTime ExpireDate { get; set; }
     }

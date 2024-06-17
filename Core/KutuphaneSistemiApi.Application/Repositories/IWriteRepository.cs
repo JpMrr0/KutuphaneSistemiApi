@@ -14,6 +14,7 @@ namespace KutuphaneSistemiApi.Application.Repositories
         bool Delete(T entity);
         bool DeleteRange(List<T> entities);
         Task<bool> DeleteById(string id);
+        bool Update(T entity);
         Task<int> SaveAsync();
     }
 }

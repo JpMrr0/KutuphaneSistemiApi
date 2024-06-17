@@ -10,8 +10,8 @@ namespace KutuphaneSistemiApi.Application.Repositories
 {
     public interface IReadRepository<T> : IRepository<T> where T : BaseEntity
     {
-        IQueryable<T> GetAll();
-        IQueryable<T> GetWhere(Expression<Func<T, bool>> model);
-        Task<T> GetById(string id);
+        IQueryable<T> GetAll(bool tracking = false);
+        IQueryable<T> GetWhere(Expression<Func<T, bool>> model, bool tracking = false);
+        Task<T> GetById(string id, bool tracking = false);
     }
 }

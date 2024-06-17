@@ -13,3 +13,4 @@ C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\refint\KutuphaneSistemiApi.Application.dll
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\KutuphaneSistemiApi.Application.pdb
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\ref\KutuphaneSistemiApi.Application.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Application\obj\Debug\net8.0\KutuphaneSistemiApi.Application.sourcelink.json

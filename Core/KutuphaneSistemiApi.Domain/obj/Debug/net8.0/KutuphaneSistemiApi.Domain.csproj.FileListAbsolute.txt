@@ -9,3 +9,4 @@ C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\refint\KutuphaneSistemiApi.Domain.dll
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\KutuphaneSistemiApi.Domain.pdb
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\ref\KutuphaneSistemiApi.Domain.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Core\KutuphaneSistemiApi.Domain\obj\Debug\net8.0\KutuphaneSistemiApi.Domain.sourcelink.json

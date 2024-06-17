@@ -1,5 +1,6 @@
 ﻿using KutuphaneSistemiApi.Application.Repositories;
 using KutuphaneSistemiApi.Domain.Entities;
+using KutuphaneSistemiApi.Persistence.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KutuphaneSistemiApi.API.Controllers
@@ -15,22 +16,80 @@ namespace KutuphaneSistemiApi.API.Controllers
             _bookReadRepository = bookReadRepository;
             _bookWriteRepository = bookWriteRepository;
         }
-        [HttpGet("Create")]
-        public async void Create()
+        [HttpGet]
+        public IActionResult GetAll()
         {
-            await _bookWriteRepository.AddRangeAsync(new()
-            {
-                new() {Id=Guid.NewGuid(), Title = "Book1", Author = "Author1", CreatedDate = DateTime.UtcNow, Description = "Desc1", Genre = 0},
-                new() {Id=Guid.NewGuid(), Title = "Book2", Author = "Author2", CreatedDate = DateTime.UtcNow, Description = "Desc2", Genre = 0},
-                new() {Id=Guid.NewGuid(), Title = "Book3", Author = "Author3", CreatedDate = DateTime.UtcNow, Description = "Desc3", Genre = 0}
-            });
-            _bookWriteRepository.SaveAsync();
+            IQueryable<Book> books = _bookReadRepository.GetAll();
+            return Ok(books);
         }
-        [HttpGet("Get")]
-        public IActionResult Get()
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetById(string id)
         {
-            var a = _bookReadRepository.GetAll();
-            return Ok(a.ToArray());
+            Book book = await _bookReadRepository.GetById(id);
+            return Ok(book);
+        }
+        [HttpGet("author/{author}/books")]
+        public IActionResult GetByAuthor(string author)
+        {
+            IQueryable<Book> books = _bookReadRepository.GetWhere(p => p.Author == author);
+            return Ok(books);
+        }
+        [HttpGet("genre/{genre}/books")]
+        public IActionResult GetByGenre(string genre)
+        {
+            IQueryable<Book> books;
+            genre = genre.ToLower();
+            switch (genre)
+            {
+                case "fiction":
+                    books = _bookReadRepository.GetWhere(p => p.Genre == Domain.Enums.BookGenres.Fiction);
+                    break;
+                case "nonfiction":
+                    books = _bookReadRepository.GetWhere(p => p.Genre == Domain.Enums.BookGenres.Nonfiction);
+                    break;
+                default:
+                    return Ok($"Couldnt get {genre} books");
+                    break;
+            }
+            return Ok(books);
+        }
+        [HttpPost("add")]
+        public async Task<IActionResult> AddBookAsync([FromBody] Book book)
+        {
+            var a = await _bookWriteRepository.AddAsync(book);
+            await _bookWriteRepository.SaveAsync();
+            if (a)
+                return Ok("Book added successfully");
+            else
+                return BadRequest("Couldnt add book");
+        }
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> RemoveBookByIdAsync(string id)
+        {
+            var a = await _bookWriteRepository.DeleteById(id);
+            _bookWriteRepository.SaveAsync();
+            if (a)
+                return Ok("Book removed successfully");
+            else
+                return BadRequest("Book couldnt removed");
+        }
+        [HttpDelete]
+        public IActionResult RemoveBook([FromBody] Book book)
+        {
+            var a = _bookWriteRepository.Delete(book);
+            _bookWriteRepository.SaveAsync();
+            if (a)
+                return Ok("Book removed successfully");
+            else
+                return BadRequest("Couldnt removed book");
+        }
+        [HttpPatch] 
+        public IActionResult UpdateBook([FromBody]Book book)
+        {
+            var a = _bookWriteRepository.Update(book);
+            _bookWriteRepository.SaveAsync();
+            if (a) return Ok("Book updated successfully");
+            else return BadRequest("Couldnt update book");
         }
     }
 }

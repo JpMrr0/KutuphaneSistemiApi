@@ -17,3 +17,4 @@ C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\Kutuphane
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Persistence\obj\Debug\net8.0\ref\KutuphaneSistemiApi.Persistence.dll
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Persistence\bin\Debug\net8.0\KutuphaneSistemiApi.Persistence.runtimeconfig.json
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Persistence\obj\Debug\net8.0\KutuphaneSistemiApi.Persistence.genruntimeconfig.cache
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Persistence\obj\Debug\net8.0\KutuphaneSistemiApi.Persistence.sourcelink.json

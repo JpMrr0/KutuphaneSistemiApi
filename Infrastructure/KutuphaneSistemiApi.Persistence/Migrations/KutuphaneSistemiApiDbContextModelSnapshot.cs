@@ -66,6 +66,14 @@ namespace KutuphaneSistemiApi.Persistence.Migrations
                     b.Property<int>("MembershipType")
                         .HasColumnType("int");
 
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.HasKey("Id");
 
                     b.ToTable("Members");

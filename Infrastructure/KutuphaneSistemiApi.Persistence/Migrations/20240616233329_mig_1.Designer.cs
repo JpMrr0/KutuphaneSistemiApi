@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KutuphaneSistemiApi.Persistence.Migrations
 {
     [DbContext(typeof(KutuphaneSistemiApiDbContext))]
-    [Migration("20240616184519_mig_1")]
+    [Migration("20240616233329_mig_1")]
     partial class mig_1
     {
         /// <inheritdoc />
@@ -68,6 +68,14 @@ namespace KutuphaneSistemiApi.Persistence.Migrations
 
                     b.Property<int>("MembershipType")
                         .HasColumnType("int");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 

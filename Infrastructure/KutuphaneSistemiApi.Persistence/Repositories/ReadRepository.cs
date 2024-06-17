@@ -20,11 +20,28 @@ namespace KutuphaneSistemiApi.Persistence.Repositories
         }
         public DbSet<T> Table => _context.Set<T>();
 
-        public IQueryable<T> GetAll() => Table;
+        public IQueryable<T> GetAll(bool tracking = false)
+        {
+            if (tracking)
+                return Table;
+            else
+                return Table.AsNoTracking();
+        }
 
-        public async Task<T> GetById(string id) 
-            => await Table.FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
+        public async Task<T> GetById(string id, bool tracking = false)
+        {
+            if (tracking)
+                return await Table.FindAsync(Guid.Parse(id));
+            else
+                return await Table.AsNoTracking().FirstOrDefaultAsync(p => p.Id == Guid.Parse(id));
+        }
 
-        public IQueryable<T> GetWhere(Expression<Func<T, bool>> model) => Table.Where(model);
+        public IQueryable<T> GetWhere(Expression<Func<T, bool>> model, bool tracking = false)
+        {
+            if(tracking)
+                return Table.Where(model);
+            else
+                return Table.Where(model).AsNoTracking();
+        }
     }
 }

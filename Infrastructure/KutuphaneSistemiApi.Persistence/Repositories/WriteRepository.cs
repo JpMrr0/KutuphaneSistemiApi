@@ -22,13 +22,22 @@ namespace KutuphaneSistemiApi.Persistence.Repositories
 
         public async Task<bool> AddAsync(T entity)
         {
+            entity.Id = Guid.NewGuid();
+            entity.CreatedDate = DateTime.UtcNow;
             EntityEntry<T> entry = await Table.AddAsync(entity);
             return entry.State == EntityState.Added;
         }
 
         public async Task<bool> AddRangeAsync(List<T> entities)
         {
-            await Table.AddRangeAsync(entities);
+            List<T> entitiesModified = new List<T>();
+            foreach (T entity in entities)
+            {
+                entity.Id = Guid.NewGuid();
+                entity.CreatedDate = DateTime.UtcNow;
+                entitiesModified.Add(entity);
+            }
+            await Table.AddRangeAsync(entitiesModified);
             return entities.Count > 0;
         }
 
