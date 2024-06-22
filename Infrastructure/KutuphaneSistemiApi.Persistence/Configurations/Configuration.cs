@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace KutuphaneSistemiApi.Persistence.Configurations
 {
-    static class Configuration
+    public static class Configuration
     {
+
         static public string ConnectionString
         {
             get
@@ -17,6 +18,35 @@ namespace KutuphaneSistemiApi.Persistence.Configurations
                 configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../KutuphaneSistemiApi.API"));
                 configurationManager.AddJsonFile("appsettings.json");
                 return configurationManager.GetConnectionString("MySQL");
+            }
+        }
+        static public string Audience
+        {
+            get
+            {
+                ConfigurationManager configurationManager = new();
+                configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../KutuphaneSistemiApi.API"));
+                configurationManager.AddJsonFile("appsettings.json");
+                return configurationManager["Token:Audience"];
+            }
+        }
+        static public string Issuer
+        {
+            get
+            {
+                ConfigurationManager configurationManager = new();
+                configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../KutuphaneSistemiApi.API"));
+                configurationManager.AddJsonFile("appsettings.json");
+                return configurationManager["Token:Issuer"];
+            }
+        }static public string SigningKey
+        {
+            get
+            {
+                ConfigurationManager configurationManager = new();
+                configurationManager.SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "../KutuphaneSistemiApi.API"));
+                configurationManager.AddJsonFile("appsettings.json");
+                return configurationManager["Token:SigningKey"];
             }
         }
     }

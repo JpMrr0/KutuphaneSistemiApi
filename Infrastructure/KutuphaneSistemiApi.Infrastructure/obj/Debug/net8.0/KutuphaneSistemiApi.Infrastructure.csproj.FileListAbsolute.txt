@@ -9,3 +9,10 @@ C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\Kutuphane
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\refint\KutuphaneSistemiApi.Infrastructure.dll
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.pdb
 C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\ref\KutuphaneSistemiApi.Infrastructure.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\bin\Debug\net8.0\KutuphaneSistemiApi.Application.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\bin\Debug\net8.0\KutuphaneSistemiApi.Domain.dll
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\bin\Debug\net8.0\KutuphaneSistemiApi.Application.pdb
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\bin\Debug\net8.0\KutuphaneSistemiApi.Domain.pdb
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\KutuphaneSistemiApi.Infrastructure.sourcelink.json
+C:\Users\Mustafa Mendi\source\repos\KutuphaneSistemiApi\Infrastructure\KutuphaneSistemiApi.Infrastructure\obj\Debug\net8.0\Kutuphan.DA935209.Up2Date

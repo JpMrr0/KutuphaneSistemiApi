@@ -23,6 +23,7 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KutuphaneSistemiApi.API", "KutuphaneSistemiApi.API\KutuphaneSistemiApi.API.csproj", "{5F6DA90D-ACD7-4E11-8FC8-2E7A66A2F0F2}"
 	ProjectSection(ProjectDependencies) = postProject
 		{742C1E00-66BC-4C0E-AA15-D58FC6B1D408} = {742C1E00-66BC-4C0E-AA15-D58FC6B1D408}
+		{9E2869DE-EDB9-46A0-BE94-2F4B919100E5} = {9E2869DE-EDB9-46A0-BE94-2F4B919100E5}
 	EndProjectSection
 EndProject
 Global

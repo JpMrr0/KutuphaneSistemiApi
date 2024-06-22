@@ -11,6 +11,22 @@
   },
   {
     "ContainingType": "KutuphaneSistemiApi.API.Controllers.BooksController",
+    "Method": "AddBookAsync",
+    "RelativePath": "api/v1/Books",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addBookCommandRequest",
+        "Type": "KutuphaneSistemiApi.Application.Features.Commands.Book.AddBook.AddBookCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneSistemiApi.API.Controllers.BooksController",
     "Method": "RemoveBook",
     "RelativePath": "api/v1/Books",
     "HttpMethod": "DELETE",
@@ -18,8 +34,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "book",
-        "Type": "KutuphaneSistemiApi.Domain.Entities.Book",
+        "Name": "deleteBookCommandRequest",
+        "Type": "KutuphaneSistemiApi.Application.Features.Commands.Book.DeleteBook.DeleteBookCommandRequest",
         "IsRequired": true
       }
     ],
@@ -29,13 +45,13 @@
     "ContainingType": "KutuphaneSistemiApi.API.Controllers.BooksController",
     "Method": "UpdateBook",
     "RelativePath": "api/v1/Books",
-    "HttpMethod": "PATCH",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "book",
-        "Type": "KutuphaneSistemiApi.Domain.Entities.Book",
+        "Name": "updateBookCommandRequest",
+        "Type": "KutuphaneSistemiApi.Application.Features.Commands.Book.UpdateBook.UpdateBookCommandRequest",
         "IsRequired": true
       }
     ],
@@ -44,46 +60,14 @@
   {
     "ContainingType": "KutuphaneSistemiApi.API.Controllers.BooksController",
     "Method": "GetById",
-    "RelativePath": "api/v1/Books/{id}",
+    "RelativePath": "api/v1/Books/{Id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
+        "Name": "Id",
         "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KutuphaneSistemiApi.API.Controllers.BooksController",
-    "Method": "RemoveBookByIdAsync",
-    "RelativePath": "api/v1/Books/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.String",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "KutuphaneSistemiApi.API.Controllers.BooksController",
-    "Method": "AddBookAsync",
-    "RelativePath": "api/v1/Books/add",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "book",
-        "Type": "KutuphaneSistemiApi.Domain.Entities.Book",
         "IsRequired": true
       }
     ],
@@ -92,13 +76,13 @@
   {
     "ContainingType": "KutuphaneSistemiApi.API.Controllers.BooksController",
     "Method": "GetByAuthor",
-    "RelativePath": "api/v1/Books/author/{author}/books",
+    "RelativePath": "api/v1/Books/author/{Author}/books",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "author",
+        "Name": "Author",
         "Type": "System.String",
         "IsRequired": true
       }
@@ -108,13 +92,13 @@
   {
     "ContainingType": "KutuphaneSistemiApi.API.Controllers.BooksController",
     "Method": "GetByGenre",
-    "RelativePath": "api/v1/Books/genre/{genre}/books",
+    "RelativePath": "api/v1/Books/genre/{Genre}/books",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "genre",
+        "Name": "Genre",
         "Type": "System.String",
         "IsRequired": true
       }
@@ -122,23 +106,51 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "KutuphaneSistemiApi.API.Controllers.MemberController",
-    "Method": "addmembers",
-    "RelativePath": "api/v1/Member/Createmembers",
-    "HttpMethod": "GET",
+    "ContainingType": "KutuphaneSistemiApi.API.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/v1/User",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "createUserCommandRequest",
+        "Type": "KutuphaneSistemiApi.Application.Features.Commands.AppUser.CreateUser.CreateUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "KutuphaneSistemiApi.API.Controllers.MemberController",
-    "Method": "MemberList",
-    "RelativePath": "api/v1/Member/Memberlist",
+    "ContainingType": "KutuphaneSistemiApi.API.Controllers.UserController",
+    "Method": "Login",
+    "RelativePath": "api/v1/User/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginUserCommandRequest",
+        "Type": "KutuphaneSistemiApi.Application.Features.Commands.AppUser.LoginUser.LoginUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneSistemiApi.API.Controllers.UserController",
+    "Method": "RefreshTokenLogin",
+    "RelativePath": "api/v1/User/RefreshTokenLogin",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "RefreshToken",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   }
 ]
