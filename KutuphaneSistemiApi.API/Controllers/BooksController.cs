@@ -1,4 +1,6 @@
-﻿using KutuphaneSistemiApi.Application.Features.Commands.Book.AddBook;
+﻿using KutuphaneSistemiApi.Application.Attributes;
+using KutuphaneSistemiApi.Application.Constants;
+using KutuphaneSistemiApi.Application.Features.Commands.Book.AddBook;
 using KutuphaneSistemiApi.Application.Features.Commands.Book.DeleteBook;
 using KutuphaneSistemiApi.Application.Features.Commands.Book.UpdateBook;
 using KutuphaneSistemiApi.Application.Features.Queries.Book.GetAllBooks;
@@ -76,6 +78,7 @@ namespace KutuphaneSistemiApi.API.Controllers
             return Ok(getByGenreBooksQueryResponse);
         }
         [HttpPost]
+        [AuthorizeDefiniton(ActionType = Application.Enums.ActionType.Writing,Menu =AuthorizeDefinitionConstants.Books,Definiton ="Add Book")]
         public async Task<IActionResult> AddBookAsync([FromBody] AddBookCommandRequest addBookCommandRequest)
         {
             AddBookCommandResponse addBookCommandResponse = await _mediator.Send(addBookCommandRequest);
@@ -83,6 +86,7 @@ namespace KutuphaneSistemiApi.API.Controllers
             else return StatusCode((int)HttpStatusCode.BadRequest);
         }
         [HttpDelete]
+        [AuthorizeDefiniton(ActionType = Application.Enums.ActionType.Deleting, Menu = AuthorizeDefinitionConstants.Books, Definiton = "Delete Book")]
         public async Task<IActionResult> RemoveBook([FromBody] DeleteBookCommandRequest deleteBookCommandRequest)
         {
             DeleteBookCommandResponse deleteBookCommandResponse = await _mediator.Send(deleteBookCommandRequest);
@@ -92,7 +96,8 @@ namespace KutuphaneSistemiApi.API.Controllers
             }
             else return StatusCode((int)HttpStatusCode.BadRequest);
         }
-        [HttpPut] 
+        [HttpPut]
+        [AuthorizeDefiniton(ActionType = Application.Enums.ActionType.Updating, Menu = AuthorizeDefinitionConstants.Books, Definiton = "Update Book")]
         public async Task<IActionResult> UpdateBook([FromBody]UpdateBookCommandRequest updateBookCommandRequest)
         {
             UpdateBookCommandResponse updateBookCommandResponse = await _mediator.Send(updateBookCommandRequest);

@@ -1,5 +1,7 @@
 ﻿using KutuphaneSistemiApi.Application.Abstractions;
+using KutuphaneSistemiApi.Application.Abstractions.Services;
 using KutuphaneSistemiApi.Application.Abstractions.Services.User;
+using KutuphaneSistemiApi.Infrastructure.Services.Configs;
 using KutuphaneSistemiApi.Infrastructure.Services.Token;
 using KutuphaneSistemiApi.Infrastructure.Services.User;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -19,6 +21,7 @@ namespace KutuphaneSistemiApi.Infrastructure
         {
             services.AddScoped<ITokenHandler,Infrastructure.Services.Token.TokenHandler>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IAuthService, AuthService>();
         }
         public static void AddAuthentications(this IServiceCollection services)
         {

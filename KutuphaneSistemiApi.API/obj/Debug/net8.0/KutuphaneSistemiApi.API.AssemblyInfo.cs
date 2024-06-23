@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KutuphaneSistemiApi.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0768c673f9c963c7901c898dab3ec08daeff8bee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+045592d1526d55b2aad034a040c7ceae64acec90")]
 [assembly: System.Reflection.AssemblyProductAttribute("KutuphaneSistemiApi.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KutuphaneSistemiApi.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

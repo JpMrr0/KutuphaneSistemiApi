@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "KutuphaneSistemiApi.API.Controllers.AuthServicesController",
+    "Method": "GetAuthorizeDefinitionEndpoints",
+    "RelativePath": "api/v1/AuthServices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "KutuphaneSistemiApi.API.Controllers.BooksController",
     "Method": "GetAll",
     "RelativePath": "api/v1/Books",
@@ -123,6 +133,22 @@
   },
   {
     "ContainingType": "KutuphaneSistemiApi.API.Controllers.UserController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/v1/User/DeleteUser",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteUserCommandRequest",
+        "Type": "KutuphaneSistemiApi.Application.Features.Commands.AppUser.DeleteUser.DeleteUserCommandRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneSistemiApi.API.Controllers.UserController",
     "Method": "Login",
     "RelativePath": "api/v1/User/Login",
     "HttpMethod": "POST",
@@ -149,6 +175,22 @@
         "Name": "RefreshToken",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "KutuphaneSistemiApi.API.Controllers.UserController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/v1/User/UpdateUser",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "updateUserCommandRequest",
+        "Type": "KutuphaneSistemiApi.Application.Features.Commands.AppUser.UpdateUser.UpdateUserCommandRequest",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

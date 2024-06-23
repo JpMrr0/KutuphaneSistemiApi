@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B2A589A9-3407-4458-8CD5-8F4064D96CAC}|Core\\KutuphaneSistemiApi.Domain\\KutuphaneSistemiApi.Domain.csproj|C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\core\\kutuphanesistemiapi.domain\\entities\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B2A589A9-3407-4458-8CD5-8F4064D96CAC}|Core\\KutuphaneSistemiApi.Domain\\KutuphaneSistemiApi.Domain.csproj|solutionrelative:core\\kutuphanesistemiapi.domain\\entities\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9E2869DE-EDB9-46A0-BE94-2F4B919100E5}|Infrastructure\\KutuphaneSistemiApi.Infrastructure\\KutuphaneSistemiApi.Infrastructure.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\infrastructure\\kutuphanesistemiapi.infrastructure\\services\\configs\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E2869DE-EDB9-46A0-BE94-2F4B919100E5}|Infrastructure\\KutuphaneSistemiApi.Infrastructure\\KutuphaneSistemiApi.Infrastructure.csproj|solutionrelative:infrastructure\\kutuphanesistemiapi.infrastructure\\services\\configs\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5F6DA90D-ACD7-4E11-8FC8-2E7A66A2F0F2}|KutuphaneSistemiApi.API\\KutuphaneSistemiApi.API.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\kutuphanesistemiapi.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5F6DA90D-ACD7-4E11-8FC8-2E7A66A2F0F2}|KutuphaneSistemiApi.API\\KutuphaneSistemiApi.API.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\kutuphanesistemiapi.api\\controllers\\authservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F6DA90D-ACD7-4E11-8FC8-2E7A66A2F0F2}|KutuphaneSistemiApi.API\\KutuphaneSistemiApi.API.csproj|solutionrelative:kutuphanesistemiapi.api\\controllers\\authservicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\updateuser\\updateusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|solutionrelative:core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\updateuser\\updateusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F6DA90D-ACD7-4E11-8FC8-2E7A66A2F0F2}|KutuphaneSistemiApi.API\\KutuphaneSistemiApi.API.csproj|C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\kutuphanesistemiapi.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F6DA90D-ACD7-4E11-8FC8-2E7A66A2F0F2}|KutuphaneSistemiApi.API\\KutuphaneSistemiApi.API.csproj|solutionrelative:kutuphanesistemiapi.api\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F6DA90D-ACD7-4E11-8FC8-2E7A66A2F0F2}|KutuphaneSistemiApi.API\\KutuphaneSistemiApi.API.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\kutuphanesistemiapi.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F6DA90D-ACD7-4E11-8FC8-2E7A66A2F0F2}|KutuphaneSistemiApi.API\\KutuphaneSistemiApi.API.csproj|solutionrelative:kutuphanesistemiapi.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.application\\attributes\\authorizedefinitonattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|solutionrelative:core\\kutuphanesistemiapi.application\\attributes\\authorizedefinitonattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\updateuser\\updateusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|solutionrelative:core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\updateuser\\updateusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\updateuser\\updateusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|solutionrelative:core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\updateuser\\updateusercommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.application\\viewmodels\\user\\user_update_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|solutionrelative:core\\kutuphanesistemiapi.application\\viewmodels\\user\\user_update_vm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\deleteuser\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|solutionrelative:core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\deleteuser\\deleteusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.application\\exceptions\\usernotdeletedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|solutionrelative:core\\kutuphanesistemiapi.application\\exceptions\\usernotdeletedexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\deleteuser\\deleteusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|solutionrelative:core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\deleteuser\\deleteusercommandrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.application\\enums\\actiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|solutionrelative:core\\kutuphanesistemiapi.application\\enums\\actiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2A589A9-3407-4458-8CD5-8F4064D96CAC}|Core\\KutuphaneSistemiApi.Domain\\KutuphaneSistemiApi.Domain.csproj|c:\\users\\mustafa mendi\\source\\repos\\kutuphanesistemiapi\\core\\kutuphanesistemiapi.domain\\entities\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2A589A9-3407-4458-8CD5-8F4064D96CAC}|Core\\KutuphaneSistemiApi.Domain\\KutuphaneSistemiApi.Domain.csproj|solutionrelative:core\\kutuphanesistemiapi.domain\\entities\\identity\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{742C1E00-66BC-4C0E-AA15-D58FC6B1D408}|Core\\KutuphaneSistemiApi.Application\\KutuphaneSistemiApi.Application.csproj|C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\core\\kutuphanesistemiapi.application\\features\\commands\\appuser\\createuser\\createusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +74,176 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\KutuphaneSistemiApi.API\\Controllers\\AuthServicesController.cs",
+              "RelativeDocumentMoniker": "KutuphaneSistemiApi.API\\Controllers\\AuthServicesController.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\KutuphaneSistemiApi.API\\Controllers\\AuthServicesController.cs",
+              "RelativeToolTip": "KutuphaneSistemiApi.API\\Controllers\\AuthServicesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:39:40.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Infrastructure\\KutuphaneSistemiApi.Infrastructure\\Services\\Configs\\AuthService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\KutuphaneSistemiApi.Infrastructure\\Services\\Configs\\AuthService.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Infrastructure\\KutuphaneSistemiApi.Infrastructure\\Services\\Configs\\AuthService.cs",
+              "RelativeToolTip": "Infrastructure\\KutuphaneSistemiApi.Infrastructure\\Services\\Configs\\AuthService.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwDIAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:38:09.409Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UpdateUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandHandler.cs",
+              "RelativeToolTip": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:27:36.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User_Update_VM.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\ViewModels\\User\\User_Update_VM.cs",
+              "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\ViewModels\\User\\User_Update_VM.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\ViewModels\\User\\User_Update_VM.cs",
+              "RelativeToolTip": "Core\\KutuphaneSistemiApi.Application\\ViewModels\\User\\User_Update_VM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:26:17.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UpdateUserCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandRequest.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandRequest.cs",
+              "RelativeToolTip": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:25:12.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateUserCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandResponse.cs",
+              "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandResponse.cs",
+              "RelativeToolTip": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\UpdateUser\\UpdateUserCommandResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:24:53.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\KutuphaneSistemiApi.API\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "KutuphaneSistemiApi.API\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\KutuphaneSistemiApi.API\\Controllers\\UserController.cs",
+              "RelativeToolTip": "KutuphaneSistemiApi.API\\Controllers\\UserController.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwC8AAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:08:30.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\KutuphaneSistemiApi.API\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "KutuphaneSistemiApi.API\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\KutuphaneSistemiApi.API\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "KutuphaneSistemiApi.API\\Controllers\\BooksController.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAcwFgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T18:31:16.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteUserCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "RelativeToolTip": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\DeleteUser\\DeleteUserCommandHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:10:14.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthorizeDefinitonAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Attributes\\AuthorizeDefinitonAttribute.cs",
+              "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\Attributes\\AuthorizeDefinitonAttribute.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Attributes\\AuthorizeDefinitonAttribute.cs",
+              "RelativeToolTip": "Core\\KutuphaneSistemiApi.Application\\Attributes\\AuthorizeDefinitonAttribute.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:02:52.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserNotDeletedException.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Exceptions\\UserNotDeletedException.cs",
+              "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\Exceptions\\UserNotDeletedException.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Exceptions\\UserNotDeletedException.cs",
+              "RelativeToolTip": "Core\\KutuphaneSistemiApi.Application\\Exceptions\\UserNotDeletedException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:22:02.763Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteUserCommandRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\DeleteUser\\DeleteUserCommandRequest.cs",
+              "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\DeleteUser\\DeleteUserCommandRequest.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\DeleteUser\\DeleteUserCommandRequest.cs",
+              "RelativeToolTip": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\DeleteUser\\DeleteUserCommandRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:09:53.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ActionType.cs",
+              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Enums\\ActionType.cs",
+              "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\Enums\\ActionType.cs",
+              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Enums\\ActionType.cs",
+              "RelativeToolTip": "Core\\KutuphaneSistemiApi.Application\\Enums\\ActionType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-23T17:01:44.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "CreateUserCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandHandler.cs",
               "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Application\\Features\\Commands\\AppUser\\CreateUser\\CreateUserCommandHandler.cs",
@@ -38,28 +255,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "AppRole.cs",
               "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Domain\\Entities\\Identity\\AppRole.cs",
               "RelativeDocumentMoniker": "Core\\KutuphaneSistemiApi.Domain\\Entities\\Identity\\AppRole.cs",
               "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\Core\\KutuphaneSistemiApi.Domain\\Entities\\Identity\\AppRole.cs",
               "RelativeToolTip": "Core\\KutuphaneSistemiApi.Domain\\Entities\\Identity\\AppRole.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-22T00:00:17.826Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BooksController.cs",
-              "DocumentMoniker": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\KutuphaneSistemiApi.API\\Controllers\\BooksController.cs",
-              "RelativeDocumentMoniker": "KutuphaneSistemiApi.API\\Controllers\\BooksController.cs",
-              "ToolTip": "C:\\Users\\Mustafa Mendi\\source\\repos\\KutuphaneSistemiApi\\KutuphaneSistemiApi.API\\Controllers\\BooksController.cs",
-              "RelativeToolTip": "KutuphaneSistemiApi.API\\Controllers\\BooksController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACIAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-18T18:31:16.772Z",
               "EditorCaption": ""
             }
           ]
